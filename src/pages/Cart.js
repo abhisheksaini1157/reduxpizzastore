@@ -60,6 +60,7 @@ const Cart = () => {
                     if (size.id === item.id) {
                       return size.value;
                     }
+                    return null
                   })}
                 </Typography>
                 <Typography variant="body">
@@ -69,6 +70,7 @@ const Cart = () => {
                     if (toping.id === item.id) {
                       return <>{toping.value},</>;
                     }
+                    return null
                   })}
                 </Typography>
 
